@@ -76,8 +76,8 @@ Then compile the source code and write the Assembly instructions to ```p_init```
   $ HWGN2/TinyGarble/bin/garbled_circuit/TinyGarble -a -i HWGN2/TinyGarble/bin/scd/netlists/a23_gc_main_64_w_n_cc.scd --p_init a23/<benchmark_directory>/p.txt --init a23/<benchmark_directory>/test/g.txt -c 1000 -t 1 --log2std
 ```
 Last step:  
-Provide the ```p_init```, ```e_init```, and ```g_init``` to ```HWGN2/MIPS_Garbled_Evaluator_Core_high_performance_scenario/Garbled_MIPS_netlist_high_performance.v``` for high performance scenario or ```HWGN2/MIPS_Garbled_Evaluator_Core_improved_resource_efficiency/Garbled_MIPS_netlist_high_performance.v``` for improved resource efficiency scenario.  
-Synthesize and run the ```HWGN2/MIPS_Garbled_Evaluator_Core_improved_resource_efficiency/Garbled_MIPS_netlist_high_performance.v``` for improved resource efficiency scenario.
+Provide the ```p_init```, ```e_init```, and ```g_init``` to HWGN2/MIPS_Garbled_Evaluator_Core_high_performance_scenario/Garbled_MIPS_netlist_high_performance.v for high performance scenario or HWGN2/MIPS_Garbled_Evaluator_Core_improved_resource_efficiency/Garbled_MIPS_netlist_high_performance.v for improved resource efficiency scenario.  
+Synthesize and run the HWGN2/MIPS_Garbled_Evaluator_Core_improved_resource_efficiency/Garbled_MIPS_netlist_high_performance.v for improved resource efficiency scenario.
 # References:
 1. Ebrahim M. Songhori, Siam U. Hussain, Ahmad-Reza Sadeghi, Thomas Schneider and Farinaz Koushanfar, "TinyGarble: Highly Compressed and Scalable Sequential Garbled Circuits." Security and Privacy, 2015 IEEE Symposium on May, 2015.
 1. Hussain, Siam, et al. "TinyGarble2: Smart, Efficient, and Scalable Yao's Garble Circuit." Proceedings of the 2020 Workshop on Privacy-Preserving Machine Learning in Practice. 2020.
