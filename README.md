@@ -53,7 +53,8 @@ TinyGarble2:
 	$ cd TinyGarble2.0
 	$ cmake . -DCMAKE_INSTALL_PREFIX=<install_path>
 	$ make -j 
-	$ make install -j 
+	$ make install -j
+```
 # SCD generation:
 V2SCD_Main: Translating netlist Verilog (.v) file to simple circuit description (.scd) file
 ```
