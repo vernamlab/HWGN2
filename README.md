@@ -36,24 +36,24 @@ ARM2GC:
 ```
 TinyGarble2: 
 ```
-	$ git clone https://github.com/IntelLabs/TinyGarble2.0.git
-	$ git clone https://github.com/IntelLabs/emp-tool.git
-	$ git clone https://github.com/IntelLabs/emp-ot.git
-	$ sudo ./TinyGarble2.0/install_scripts/install_dependencies.sh
-	$ cd emp-tool
-	$ cmake . -DCMAKE_INSTALL_PREFIX=<install_path>
-	$ make -j 
-	$ make install -j
-	$ cd ..
-	$ cd emp-ot
-	$ cmake . -DCMAKE_INSTALL_PREFIX=<install_path>
-	$ make -j 
-	$ make install -j 
-	$ cd ..
-	$ cd TinyGarble2.0
-	$ cmake . -DCMAKE_INSTALL_PREFIX=<install_path>
-	$ make -j 
-	$ make install -j
+  $ git clone https://github.com/IntelLabs/TinyGarble2.0.git
+  $ git clone https://github.com/IntelLabs/emp-tool.git
+  $ git clone https://github.com/IntelLabs/emp-ot.git
+  $ sudo ./TinyGarble2.0/install_scripts/install_dependencies.sh
+  $ cd emp-tool
+  $ cmake . -DCMAKE_INSTALL_PREFIX=<install_path>
+  $ make -j 
+  $ make install -j
+  $ cd ..
+  $ cd emp-ot
+  $ cmake . -DCMAKE_INSTALL_PREFIX=<install_path>
+  $ make -j 
+  $ make install -j 
+  $ cd ..
+  $ cd TinyGarble2.0
+  $ cmake . -DCMAKE_INSTALL_PREFIX=<install_path>
+  $ make -j 
+  $ make install -j
 ```
 # SCD generation:
 V2SCD_Main: Translating netlist Verilog (.v) file to simple circuit description (.scd) file
