@@ -84,6 +84,15 @@ Last step:
 Provide the ```p_init```, ```e_init```, and ```g_init``` to HWGN2/MIPS_Garbled_Evaluator_Core_high_performance_scenario/Garbled_MIPS_netlist_high_performance.v for high performance scenario or HWGN2/MIPS_Garbled_Evaluator_Core_improved_resource_efficiency/Garbled_MIPS_netlist_high_performance.v for improved resource efficiency scenario.  
 Synthesize and run the HWGN2/MIPS_Garbled_Evaluator_Core_improved_resource_efficiency/Garbled_MIPS_netlist_high_performance.v for improved resource efficiency scenario.
 # References:
+How to cite this code:
+@inproceedings{hashemi2022hwgn,
+  title={HWGN 2: Side-Channel Protected NNs Through Secure and Private Function Evaluation},
+  author={Hashemi, Mohammad and Roy, Steffi and Forte, Domenic and Ganji, Fatemeh},
+  booktitle={International Conference on Security, Privacy, and Applied Cryptography Engineering},
+  pages={225--248},
+  year={2022},
+  organization={Springer}
+}
 1. Ebrahim M. Songhori, Siam U. Hussain, Ahmad-Reza Sadeghi, Thomas Schneider and Farinaz Koushanfar, "TinyGarble: Highly Compressed and Scalable Sequential Garbled Circuits." Security and Privacy, 2015 IEEE Symposium on May, 2015.
 1. Hussain, Siam, et al. "TinyGarble2: Smart, Efficient, and Scalable Yao's Garble Circuit." Proceedings of the 2020 Workshop on Privacy-Preserving Machine Learning in Practice. 2020.
 1. Mukherjee, Rajdeep, Michael Tautschnig, and Daniel Kroening. "v2c–A verilog to C translator." Tools and Algorithms for the Construction and Analysis of Systems: 22nd International Conference, TACAS 2016, Held as Part of the European Joint Conferences on Theory and Practice of Software, ETAPS 2016, Eindhoven, The Netherlands, April 2-8, 2016, Proceedings 22. Springer Berlin Heidelberg, 2016.
